@@ -1,0 +1,94 @@
+.start-convert {
+  .container {
+    .box-start-convert {
+      display: flex;
+      & > * {
+        flex-basis: 50%;
+      }
+      .left-box {
+        background-image: url("../img/woman.jpg");
+        background-size: cover;
+        height: 691px;
+
+        .background {
+          background-color: rgba(28, 30, 83, 0.5);
+          height: 691px;
+          padding: 96px;
+
+          .left-box-content {
+            h1 {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 54px;
+              line-height: 74px;
+              color: #ffffff;
+            }
+            p {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 28px;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      .right-box {
+        background-color: #1c1e53;
+        display: flex;
+        flex-direction: column;
+        padding: 96px;
+        h2 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 48px;
+          color: #ffffff;
+          margin-bottom: 16px;
+        }
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 28px;
+          color: #f4f6fc;
+          margin-bottom: 40px;
+        }
+        input {
+          margin-bottom: 16px;
+          padding: 18px 0 18px 32px;
+          border: 1.5px solid rgba(255, 255, 255, 0.05);
+          border-radius: 8px;
+          outline: none;
+          background: none;
+          color: #f4f6fc;
+        }
+        button {
+          background: #fcd980;
+          border-radius: 41px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 32px;
+          color: #1b1c2b;
+          padding: 16px 150px;
+          border: none;
+          margin: 12px 0 21px 0;
+        }
+        .link {
+          text-align: center;
+          span {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 32px;
+            color: #ffffff;
+            img {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
