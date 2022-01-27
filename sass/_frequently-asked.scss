@@ -1,0 +1,83 @@
+.frequently-asked {
+  padding: 100px 0;
+
+  .container {
+    .frequently-asked-box {
+      display: flex;
+      justify-content: space-between;
+
+      .left-box {
+        h1 {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 38px;
+          line-height: 56px;
+          color: #282938;
+        }
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 32px;
+          color: #2405f2;
+          opacity: 0.87;
+        }
+      }
+      .right-box {
+        .box-1 {
+          display: flex;
+
+          padding: 20px 0;
+          .number {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 36px;
+            color: #2405f2;
+            opacity: 0.87;
+            margin-right: 20px;
+          }
+          .text-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            .text {
+              h3 {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 36px;
+                color: #282938;
+              }
+              p {
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 32px;
+                color: #282938;
+                opacity: 0.87;
+              }
+            }
+          }
+        }
+      }
+      .open-close {
+        margin-left: 30px;
+        .div1 {
+          position: absolute;
+          width: 15px;
+          height: 2px;
+          background-color: #282938;
+          transform: rotateZ(90deg);
+        }
+        .div2 {
+          position: absolute;
+          width: 15px;
+          height: 2px;
+          background-color: #282938;
+        }
+      }
+    }
+  }
+}
