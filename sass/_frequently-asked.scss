@@ -1,6 +1,6 @@
 .frequently-asked {
   padding: 100px 0;
-
+  background-color: #fff;
   .container {
     .frequently-asked-box {
       display: flex;
@@ -27,7 +27,7 @@
         .box-1 {
           display: flex;
 
-          padding: 20px 0;
+          padding-bottom: 40px;
           .number {
             font-style: normal;
             font-weight: 500;
