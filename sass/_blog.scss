@@ -12,11 +12,12 @@
       }
       .box-blog {
         display: flex;
-        margin: -12px;
+        width: 100%;
+        margin: -10px;
 
         & > * {
-          margin: 12px;
-          flex-basis: calc(33.33% -24px);
+          margin: 10px;
+          flex-basis: calc(33% -30px);
         }
         .box {
           .profil {
