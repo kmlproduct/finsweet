@@ -741,6 +741,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: -16px;
+  color: #fff;
 }
 .our-project .container .box-our-project .box-right > * {
   margin: 16px;
